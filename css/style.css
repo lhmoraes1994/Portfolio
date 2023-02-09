@@ -38,10 +38,66 @@ body {
 
 
 }
+
+/* ------ Section home------ */
 .section-home{
   background-color: rgb(7, 5, 10);
   text-align: center;
 }
+.section-home span::after {
+  content: "|";
+  text-align: center;
+  display: inline-block;
+  padding: 0 8px 0 14px;
+ 
+}
+.section-home span:first-child::before {
+  content: "|";
+  text-align: center;
+  display: inline-block;
+  padding: 0 14px 0 8px;
+}
+.section-home h1{
+  font-size: 500%;
+    text-align: center;
+    text-shadow: wheat;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.071;
+    text-shadow: 0 0 20px rgb(0 0 0 / 50%);
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;                                                                      
+}
+.section-home h2{
+
+  font-size: 400%;
+  text-align: center;
+  color: #00768C;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.565;
+  text-shadow: 0 0 6px rgb(0 0 0 / 20%);
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.section-home h4{
+
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  margin:0;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.home-icon{
+margin-top: 10px;
+font-size: 20px;
+}
+.home-icon a{
+  margin-left: 5px;
+  font-size: 18px;
+}
+  
+/* ------ Section about------ */
 .section-about{
   background-color: rgb(10, 8, 12);
 }
