@@ -11,6 +11,17 @@ body {
 
 
 }
+/* ------ Section Nav-Bar------ */
+.navbar-nav {
+
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+
+
+}
 .section-home{
   background-color: rgb(7, 5, 10);
   text-align: center;
@@ -38,4 +49,16 @@ body {
   z-index: 1;
 
 
+}
+
+@media screen and (max-width: 750px) {
+  .navbar{
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  .nav-item{
+  
+    padding-right:15px ;
+  }
 }
