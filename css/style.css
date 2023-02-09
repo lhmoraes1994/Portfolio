@@ -1,3 +1,19 @@
+/* ------ Particle JS ------ */
+canvas {
+  display: block;
+}
+#particles-container {
+  position: fixed;
+ top: 0;
+  left: 0;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
 body {
   font-family: Helvetica;
   background-color: rgb(0, 0, 0);

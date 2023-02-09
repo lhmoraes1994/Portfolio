@@ -1,3 +1,4 @@
+particlesJS.load('particles-container', 'js/particles-js/particlesjs-config.json');
 $(document).ready(function() {
   // Get all sections
   $('#home-link').addClass('active');
