@@ -1,4 +1,27 @@
 particlesJS.load('particles-container', 'js/particles-js/particlesjs-config.json');
+const quotes = [
+  "Code hard or go home.",
+  "Debugging is like being a detective in a crime movie.",
+  "Programming is my superpower.",
+  "Coding is my cardio.",
+  "Never stop learning, never stop growing.",
+  "Software engineering is the art of turning coffee into code.",
+  "Code until you drop... or succeed.",
+  "Programmers never die, they just go offline.",
+  "A clean code is a sign of a sick mind.",
+  "Code every day, keep coding away."
+];
+
+function showMessage(){
+
+const quote = quotes[Math.floor(Math.random() * quotes.length)];
+const message = document.querySelector('.message');
+message.innerText = quote;
+
+}
+
+
+
 $(document).ready(function() {
   // Get all sections
   $('#home-link').addClass('active');
@@ -18,6 +41,7 @@ $(document).ready(function() {
         }
     }
     })
+    showMessage();
   
 
 });
