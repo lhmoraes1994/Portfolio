@@ -170,26 +170,30 @@ body {
 }
 
 /* ------ Section Footer------ */
-.section-footer{
-   width: 100%;
-   height: 150px;
-   display: flex;
-   align-items: center;
-   background-color: rgb(0, 0, 0);
-   padding-top: 50px;
-   position: absolute;
-   z-index: 1;
+.section-footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding-top: 50px;
+  position: absolute;
+  z-index: 1;
 }
+
 .refresh span {
   font-size: 0.8em;
 }
-.refresh{
+
+.refresh {
   font-size: 12px;
 }
-.message{
+
+.message {
   font-size: 20px;
 }
-.social-icons{
+
+.social-icons {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -202,6 +206,7 @@ body {
 
 
 @media screen and (max-width: 750px) {
+
   /* ------ Section Navbar------ */
   .navbar {
     position: relative;
@@ -254,6 +259,13 @@ body {
     align-items: center;
   }
 
+  /* ------ Section Projects------ */
+  .section-projects .row {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+
   /* ------ Section About------ */
   .section-about .row {
     margin-left: 10px;
@@ -265,12 +277,15 @@ body {
     padding-top: 15px;
   }
 
+  /* ------ Section footer------ */
+  .social-icons {
 
-  /* ------ Section Projects------ */
-  .section-projects .row {
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: transparent;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+
   }
 }
 
@@ -279,13 +294,13 @@ body {
 @media screen and (max-width: 992px) {
 
   /* ------ Section Navbar------ */
-  .nav-item{
-    padding-right:15px ;
+  .nav-item {
+    padding-right: 15px;
   }
 
 
   /* ------ Section Navbar------ */
-  .navbar{
+  .navbar {
     position: relative;
     top: unset;
     left: unset;
@@ -293,15 +308,26 @@ body {
 
   /* ------ Section About------ */
 
-  .section-about{
+  .section-about {
     padding-top: 15px;
     display: flex;
     align-items: center;
-    height: unset; 
+    height: unset;
   }
-  .my-picture{
+
+  .my-picture {
     display: none;
   }
 
+  /* ------ Section footer------ */
+  .social-icons {
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+
+  }
 
 }
