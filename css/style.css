@@ -102,11 +102,12 @@ font-size: 20px;
   background-color: rgb(10, 8, 12);
 }
 .section-about .left-side{
-  background-color: rgb(55, 45, 65);
+  background-color: transparent;
 }
 .section-about .right-side{
-  background-color: rgb(30, 9, 51);
+  background-color:  transparent;
 }
+
 .section-projects{
   background-color: rgb(7, 5, 10);
 }
