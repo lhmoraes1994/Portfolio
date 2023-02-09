@@ -49,6 +49,8 @@ $(document).ready(function() {
 
 var scrollTimer = -1;
 function bodyScroll() {
+  var icons= document.getElementById("social-icons");
+  icons.style.opacity=0.2;
 
   var sections = $('.section');
   
@@ -86,5 +88,6 @@ function bodyScroll() {
 }
 
 function scrollFinished() {
-
+  var icons= document.getElementById("social-icons");
+  icons.style.opacity=1;
 }
