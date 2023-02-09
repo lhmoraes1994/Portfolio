@@ -2,6 +2,23 @@ particlesJS.load('particles-container', 'js/particles-js/particlesjs-config.json
 $(document).ready(function() {
   // Get all sections
   $('#home-link').addClass('active');
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+          items:2
+        },
+        992:{
+            items:4
+        }
+    }
+    })
+  
 
 });
 
