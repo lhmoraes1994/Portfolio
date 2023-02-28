@@ -167,8 +167,11 @@ body {
 
 .section-projects span {
   font-size: 5em;
+  
 }
-
+.owl-carousel button.owl-next, .owl-carousel button.owl-prev {
+  outline: transparent;
+}
 /* ------ Section Footer------ */
 .section-footer {
   width: 100%;
